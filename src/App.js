@@ -18,7 +18,6 @@ function App() {
           <Route path='/join' element={<Join></Join>}></Route>
         </Routes>
       </Router>
-
     </div>
   );
 }
