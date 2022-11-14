@@ -1,13 +1,25 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Main from './components/Main/Main';
-import Footer from './components/Footer/Footer';
+import Main from './pages/Main/Main';
+import Discover from './pages/Discover/Discover';
+import Join from './pages/Join/Join';
+import { 
+  BrowserRouter as Router, 
+  Routes, 
+  Route 
+} from 'react-router-dom';
 
 function App() {
   return (
-    <>
-    <Navbar></Navbar>
-    </>
+    <div className="App">  
+      <Router>
+        <Routes>
+          <Route path='/' element={<Main></Main>}></Route>
+          <Route path='/discover' element={<Discover></Discover>}></Route>
+          <Route path='/join' element={<Join></Join>}></Route>
+        </Routes>
+      </Router>
+
+    </div>
   );
 }
 
