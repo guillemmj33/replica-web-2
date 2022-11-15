@@ -1,0 +1,87 @@
+.discover {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .discover__1 {
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+
+    h5 {
+      margin: 20px 0;
+      font-size: 1rem;
+      font-weight: 300;
+    }
+
+    .discover__1_boxes {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: row;
+      text-align: center;
+      gap: 20px;
+
+      img {
+        width: 50%;
+      }
+
+      p {
+        font-size: 1rem;
+        font-weight: 300;
+        margin: 0;
+      }
+
+      .discover__1_boxes-1,
+      .discover__1_boxes-2,
+      .discover__1_boxes-3 {
+        padding: 10px;
+        background-color: var(--footer);
+      }
+    }
+  }
+
+  .discover__2 {
+    img {
+      width: 230px;
+      height: auto;
+    }
+  }
+}
+
+//lg
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .container-sm {
+    .discover {
+      margin-top: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+  }
+}
+
+//xl
+@media screen and (min-width: 1440px) {
+  .container-sm {
+    padding: 0 150px;
+    .discover {
+      margin-top: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+
+      .discover__2 {
+        img {
+          width: 350px;
+        }
+      }
+    }
+  }
+}

@@ -10,10 +10,12 @@ body {
   background-color: var(--general-background);
   font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
+  color: var(--text);
 }
 
 :root {
   --general-background: #2F303A;
+  --text: #EAEAEA;
   --header: #202027;
   --nav-hover: #202027;
   --border-input: #2E3852;
@@ -22,7 +24,8 @@ body {
   --btn-hover: #2180d8;
   --btn-focus: #2796ff;
   --accent-text: #AE457E;
-  --circle-1: #bc3a801a;
-  --circle-2and3: #3457b21a;
+  --cercle-1: #bc3a801a;
+  --cercle-2and3: #3457b21a;
+  --footer: #211F26;
 }
 
