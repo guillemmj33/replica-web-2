@@ -1,5 +1,5 @@
 .discover {
-  margin-top: 25px;
+  margin-top: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,9 +69,8 @@
 //xl
 @media screen and (min-width: 1440px) {
   .container-sm {
-    padding: 0 150px;
     .discover {
-      margin-top: 250px;
+      margin-top: 150px;
       display: flex;
       align-items: center;
       justify-content: space-between;

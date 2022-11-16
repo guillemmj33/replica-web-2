@@ -1,5 +1,4 @@
 import React from 'react';
-import './Discover.scss';
 import Covers from '../../assets/Images/covers.jpg';
 import Microphone from '../../assets/Images/microphone.svg';
 import Albums from '../../assets/Images/albums.svg';

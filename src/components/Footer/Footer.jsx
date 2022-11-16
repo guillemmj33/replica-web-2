@@ -1,9 +1,8 @@
 import React from 'react';
-import './Footer.scss';
 
 const Footer = () => {
   return (
-    <div className="footer fixed-bottom ">
+    <div className="footer">
       <div className="container-sm">
         <ul class="footer-nav">
             <li class="footer-item">

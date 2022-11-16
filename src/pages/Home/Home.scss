@@ -1,9 +1,9 @@
 .container-sm {
-  padding: 0 20px;
+  padding: 0px 20px;
   overflow: hidden;
 
   main {
-    height: 65vh;
+    height: 150vh;
   }
 
   .cercles {
@@ -99,9 +99,20 @@
 
 //small screens
 @media screen and (max-width: 575px) {
-  .feel {
-    .feel__1 {
-      display: none;
+  .container-sm {
+    .feel {
+      .feel__1 {
+        display: none;
+      }
+    }
+  }
+}
+
+//medium screens
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .container-sm {
+    main {
+      height: 130vh;
     }
   }
 }
@@ -109,12 +120,6 @@
 //lg to xl
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .container-sm {
-    padding: 0px 100px;
-
-    main {
-      height: 70vh;
-    }
-
     .feel {
       .feel__1 {
         img {
@@ -126,12 +131,12 @@
 }
 
 //xl to xxl
-@media screen and (min-width: 1200px) and (max-width: 2000px) {
+@media screen and (min-width: 1200px) {
   .container-sm {
-    padding: 0px 100px;
+    padding: 0 100px;
 
     main {
-      height: 100vh;
+      height: 180vh;
     }
 
     .feel {

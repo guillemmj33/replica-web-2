@@ -1,6 +1,6 @@
 import React from 'react';
-import './Main.scss';
 import Girl from '../../assets/Images/landing-page-girl.png';
+import Discover from '../../components/Discover/Discover';
 
 const Main = () => {
   return (
@@ -23,6 +23,8 @@ const Main = () => {
             </button>
           </div>
         </section>
+      
+        <Discover />
       </main>
     </div>
   )
