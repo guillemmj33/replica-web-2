@@ -22,12 +22,12 @@
 //breakpoints
 @media screen and (max-width: 575px) {
   .join {
-    height: 77vh;
+    height: 81vh;
     padding: 0 20px;
     margin-top: 30px;
   
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 10px;
@@ -37,11 +37,11 @@
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .join {
     height: 80vh;
-    padding: 0 40px;
+    padding: 0 70px;
     margin-top: 30px;
   
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
     gap: 10px;
@@ -51,7 +51,7 @@
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .join {
     height: 80vh;
-    padding: 0 40px;
+    padding: 0 35px;
     margin-top: 30px;
   
     display: flex;
@@ -64,7 +64,7 @@
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .join {
-    height: 80vh;
+    height: 81vh;
     padding: 0 120px;
     margin-top: 30px;
   
@@ -92,7 +92,7 @@
 
 @media screen and (min-width: 1400px) {
   .join {
-    height: 80vh;
+    height: 87vh;
     padding: 0 220px;
     margin-top: 30px;
   

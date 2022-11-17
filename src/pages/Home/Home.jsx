@@ -23,7 +23,8 @@ const Main = () => {
             </button>
           </div>
         </section>
-      
+
+        <div id="discover"></div>
         <Discover />
       </main>
     </div>
