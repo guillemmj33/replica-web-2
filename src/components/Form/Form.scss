@@ -1,0 +1,32 @@
+.form {
+  background-color: var(--footer);
+  border-radius: 10px;
+  margin-bottom: 30px;
+
+  form {
+    padding: 30px;
+    font-size: 1rem;
+
+    .form-control {
+      background-color: transparent;
+      border: 1px solid var(--border-input);
+      color: var(--text);
+    }
+
+    input:focus {
+      border: 1px solid var(--border-inputFocus);
+    }
+
+    button {
+      background-color: var(--btn-back);
+
+      &:hover {
+        background-color: var(--btn-hover);
+      }
+
+      &:focus {
+        background-color: var(--btn-focus);
+      }
+    }
+  }
+}
