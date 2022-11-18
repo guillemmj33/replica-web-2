@@ -12,9 +12,9 @@ const Navbar = () => {
         </Link>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <Link to="discover" class="nav-link" href="#">
+            <a class="nav-link" href="#discover">
               Discover
-            </Link>
+            </a>
           </li>
           <li class="nav-item">
             <Link to="/join" class="nav-link" href="#">
